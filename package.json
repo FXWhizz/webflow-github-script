@@ -1,0 +1,25 @@
+{
+  "name": "webflow-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && node build.js",
+    "serve": "serve public",
+    "serve-dev": "node serve.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chialab/esbuild-plugin-html": "^0.17.2",
+    "esbuild": "^0.15.16",
+    "reload-live-server": "^1.2.2",
+    "rimraf": "^3.0.2",
+    "serve": "^14.1.2"
+  },
+  "dependencies": {
+    "esbuild-envfile-plugin": "^1.0.5"
+  }
+}
